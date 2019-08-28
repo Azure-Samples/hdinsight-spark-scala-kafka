@@ -1,7 +1,13 @@
 ---
-services: hdinsight
-platforms: scala
-author: blackmist
+page_type: sample
+languages:
+  - scala
+products:
+  - azure
+  - azure-hdinsight
+name: Use Apache Kafka with Apache Spark on Hdinsight
+urlFragment: hdinsight-spark-scala-kafka
+description: "This is a basic example of streaming data to and from Kafka on HDInsight from a Spark on HDInsight cluster. This example uses Kafka DStreams. This example expects Kafka and Spark on HDInsight 3.6."
 ---
 
 # Use Apache Kafka with Apache Spark on hdinsight
