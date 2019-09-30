@@ -2,7 +2,8 @@
 page_type: sample
 languages:
 products:
-- azure
+  - azure
+  - azure-hdinsight
 description: "This is a basic example of streaming data to and from Kafka on HDInsight from a Spark on HDInsight cluster."
 urlFragment: hdinsight-spark-scala-kafka
 ---
