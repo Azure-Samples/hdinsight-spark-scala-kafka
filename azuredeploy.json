@@ -101,12 +101,12 @@
         ],
         "tags": { },
         "properties": {
-          "clusterVersion": "3.6",
+          "clusterVersion": "5.0",
           "osType": "Linux",
           "clusterDefinition": {
             "kind": "spark",
             "componentVersion": {
-              "Spark": "2.2"
+              "Spark": "3.1"
             },
             "configurations": {
               "gateway": {
@@ -177,11 +177,13 @@
         ],
         "tags": { },
         "properties": {
-          "clusterVersion": "3.6",
+          "clusterVersion": "5.0",
           "osType": "Linux",
           "clusterDefinition": {
             "kind": "kafka",
-  
+            "componentVersion": {
+              "Kafka": "2.4"
+            },
             "configurations": {
               "gateway": {
                 "restAuthCredential.isEnabled": true,
